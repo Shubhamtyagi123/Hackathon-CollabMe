@@ -1,0 +1,198 @@
+body {
+    // background: white url("../images/pattern.png");
+}
+
+ul.errorlist {
+    padding-left: 0;
+}
+
+ul.errorlist > li {
+    list-style: none;
+}
+.icon-bar {
+    background-color:#292727;
+}
+
+.btn-reject {
+    background-color: #ffffff;
+    color: #3f51b5;
+    font-weight: bolder;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+a.collab-btn {
+    background-color: transparent;
+    border: #374596 solid 2px;
+    color: #374596 !important;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+a.collab-btn:hover {
+    background-color: #374596;
+    color: #fff !important;
+}
+
+.btn-reject:hover {
+    background-color: #de4c4c;
+    color: #fff;
+}
+.btn-accept:hover {
+    background-color: #0e770e;
+}
+.row.row_custom h3 a {
+    color: #fff;
+}
+.btn-accept {
+    border: #fff solid 2px;
+    background: transparent;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.navbar {
+    border-radius: 0;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 17px;
+    padding: 10px 0 10px 0;
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow : #ddd 1px 1px 4px 1px;
+}
+
+.nav li a {
+    font-size: 17px;
+    color: #3F51B5 !important;
+    font-weight: bold;
+}
+
+.glyphicon {
+    color: #696969;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3em;
+}
+
+.glyphicon-star {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #3F51B5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* The navigation menu links */
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.row_custom {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.projects {
+    background-image: url("../images/pattern2.png");
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.addbutton {
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.gpadding {
+    margin-top: -16px;
+    padding: 20px;
+    font-size: 62px;
+    margin-left: -8px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.ui.feed>.event>.label img {
+    min-width: 30px;
+}
+
+.recent-activities {
+    padding: 20px 10px 20px 10px;
+    border: #ddd solid 1.1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+a.navbar-brand {
+    color: #3f51b5;
+}
+.project-desc {
+    margin: 20px 0 0 0;
+    font-size: 17px;
+}
+.pending-section {
+    padding: 20px 10px 20px 10px;
+    border: #ddd solid 1.1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.full-card {
+    width: 100% !important;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
